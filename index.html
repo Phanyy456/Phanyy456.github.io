@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="th" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhumbhumin - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">
+                <a href="#">Bhumbhumin </a>
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#profile" class="text-gray-600 hover:text-blue-500">Profile</a>
+                <a href="#education" class="text-gray-600 hover:text-blue-500">Education</a>
+                <a href="#experience" class="text-gray-600 hover:text-blue-500">Experience</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-500">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
+            <a href="#profile" class="block text-gray-600 hover:text-blue-500">Profile</a>
+            <a href="#education" class="block text-gray-600 hover:text-blue-500">Education</a>
+            <a href="#experience" class="block text-gray-600 hover:text-blue-500">Experience</a>
+            <a href="#contact" class="block text-gray-600 hover:text-blue-500">Contact</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Profile Section -->
+        <section id="profile" class="flex flex-col md:flex-row items-center justify-center text-center md:text-left py-20">
+            <img src="Image\Profile_pic1.jpg" alt="รูปโปรไฟล์" class="w-40 h-40 rounded-full object-cover shadow-lg mb-6 md:mb-0 md:mr-10">
+            <div>
+                <h1 class="text-4xl font-bold">Bhumbhumin Thanaphakinthaya</h1>
+                <p class="mt-4 max-w-xl">
+                    นักศึกษาชั้นปีที่ 3 สาขาวิทยาการคอมพิวเตอร์ ที่ตอนนี้ก็กำลังเรียนรู้การสิ่งใหม่ๆอยู่ เพราะอาจจะได้รู้ว่าตัวเองชอบหรือถนัดด้านไหน
+                </p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="py-20 border-t border-gray-200">
+            <h2 class="text-3xl font-bold text-center mb-12">Education</h2>
+            <div class="max-w-3xl mx-auto relative">
+                
+                <!-- Timeline Line -->
+                <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-300"></div>
+                
+                <!-- Bangkok University -->
+                <div class="relative flex items-start mb-12">
+                    <div class="absolute left-6 w-4 h-4 bg-blue-500 rounded-full border-4 border-white shadow-md"></div>
+                    <div class="ml-16">
+                        <h3 class="text-xl font-bold text-gray-800">Bangkok University</h3>
+                        <p class="text-gray-600 text-sm mb-1">June 2022 - Present</p>
+                        <p class="text-gray-700 leading-relaxed">
+                            Bachelor of Information Technology and Innovation<br>
+                            Information Technology Major
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Office of Non-Formal and Informal Education -->
+                <div class="relative flex items-start mb-12">
+                    <div class="absolute left-6 w-4 h-4 bg-green-500 rounded-full border-4 border-white shadow-md"></div>
+                    <div class="ml-16">
+                        <h3 class="text-xl font-bold text-gray-800">Office of Non-Formal and Informal Education</h3>
+                        <p class="text-gray-600 text-sm mb-1">Graduated: 2021</p>
+                        <p class="text-gray-700 leading-relaxed">
+                            High School Equivalent Certificate
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Ammartpanichnukul -->
+                <div class="relative flex items-start">
+                    <div class="absolute left-6 w-4 h-4 bg-purple-500 rounded-full border-4 border-white shadow-md"></div>
+                    <div class="ml-16">
+                        <h3 class="text-xl font-bold text-gray-800">Ammartpanichnukul School</h3>
+                        <p class="text-gray-600 text-sm mb-1">Graduated: 2018</p>
+                        <p class="text-gray-700 leading-relaxed">
+                            Science – Mathematics Program
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-20 border-t border-gray-200">
+            <h2 class="text-3xl font-bold text-center mb-12">Experience & Projects</h2>
+            <div class="max-w-4xl mx-auto space-y-12">
+                
+                <!-- Project 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/3">
+                            <img src="Image\Healthhub_mobile.png" alt="โปรเจกต์ที่ 1" class="w-full h-64 md:h-full object-cover">
+                        </div>
+                        <div class="md:w-2/3 p-8">
+                            <h3 class="text-2xl font-bold mb-3">HealthHub</h3>
+                            <p class="text-gray-600 mb-4 leading-relaxed">
+                                HealthHub เป็นโปรเจ็คที่พัฒนาขึ้นให้คำแนะนำด้านสุขภาพ โดยแอพนี้นั้นจะแนะส่วนในส่วนของการกินเป็นหลัก เครื่องมือที่ใช้ในการพัฒนาคือ .Net MAUI ซึ่งใช้ภาษา C# 
+                            </p>
+                            
+                            <a href="https://github.com/Phanyy456/HealthHub" target="_blank" class="text-blue-500 hover:underline font-medium">GitHub HealthHub &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="md:flex md:flex-row-reverse">
+                        <div class="md:w-1/3 relative">
+                            <!-- Image Carousel -->
+                            <div class="relative h-64 md:h-full overflow-hidden">
+                                <div class="carousel-container flex transition-transform duration-300 ease-in-out h-full" id="carousel-2">
+                                    <img src="Image\DessLand1.png" alt="DessLand รูปที่ 1" class="w-full h-full object-cover flex-shrink-0 cursor-pointer hover:opacity-90 transition-opacity" onclick="openModal('Image\\DessLand1.png', 'DessLand รูปที่ 1')">
+                                    <img src="Image\DessLand2.png" alt="DessLand รูปที่ 2" class="w-full h-full object-cover flex-shrink-0 cursor-pointer hover:opacity-90 transition-opacity" onclick="openModal('Image\\DessLand2.png', 'DessLand รูปที่ 2')">
+                                </div>
+                                <!-- Navigation Arrows -->
+                                <button class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-opacity-75 transition-all" onclick="prevImage(2)">
+                                    &#8249;
+                                </button>
+                                <button class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-opacity-75 transition-all" onclick="nextImage(2)">
+                                    &#8250;
+                                </button>
+                                <!-- Dots Indicator -->
+                                <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                                    <button class="w-2 h-2 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100 transition-all" onclick="goToImage(2, 0)" id="dot-2-0"></button>
+                                    <button class="w-2 h-2 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100 transition-all" onclick="goToImage(2, 1)" id="dot-2-1"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:w-2/3 p-8">
+                            <h3 class="text-2xl font-bold mb-3">DessLand</h3>
+                            <p class="text-gray-600 mb-4 leading-relaxed">
+                                DessLand เป็นโปรเจกต์ฝึกออกแบบ UI/UX POS ที่ออกแบบให้เป็นร้านขนมหวาน โดยใช้ Figma เป็นเครื่องมือหลัก
+                                ซึ่งได้ลองออกหน้าต่างๆ เช่น หน้ารายชื่อลูกค้า 
+                                หน้ารายการสินค้า 
+
+                            </p>
+                            
+                            <a href="https://www.figma.com/design/UkX7UUKy1QlxS4X5aLv5rR/DessLand_CS436?node-id=1-56&p=f&t=kY2f2n76r4ZGlBnG-0" target="_blank" class="text-blue-500 hover:underline font-medium">Figma &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/3">
+                            <img src="Image\UI_For_PTU.png" alt="โปรเจกต์ที่ 3" class="w-full h-64 md:h-full object-cover">
+                        </div>
+                        <div class="md:w-2/3 p-8">
+                            <h3 class="text-2xl font-bold mb-3">UI For PTU</h3>
+                            <p class="text-gray-600 mb-4 leading-relaxed">
+                                **Disclaimer: Still in progress**
+                                UI For PTU เป็นโปรเจกต์ที่พัฒนาขึ้นเพื่อออกแบบ UI สำหรับระบบของ PTU ซึ่งเป็นงานนอกโดยใช้ Figma เป็นเครื่องมือหลักในการออกแบบ
+                                ซึ่งได้รวมออกแบบ UI และได้แสดงความคิดเห็นในการออกแบบกับเพื่อนในทีม และเนื่องจากโปรเจคนี้เป็นงานที่ค่อนข้างใหม่สำหรับผม 
+                                จึงมีสิ่งที่ต้องเรียนรู้ใหม่มากมาย ทั้งการออกแบบ UI หรือภาษาที่ใช้ในการพัฒนา เช่น Node.js, Typscript จึงอยู่ในช่วงที่ต้องเรียนรู้สิ่งใหม่เรื่อยๆ
+                            </p>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 border-t border-gray-200 text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact</h2>
+            <p class="text-xl font-semibold text-gray-600">
+                bhumbhumin.than@bumail.net
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-75 z-50 hidden flex items-center justify-center p-4">
+        <div class="relative max-w-4xl max-h-full">
+            <img id="modalImage" src="" alt="" class="max-w-full max-h-full object-contain rounded-lg shadow-lg">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-white bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-75 transition-all text-2xl">
+                &times;
+            </button>
+            <div id="modalCaption" class="absolute bottom-4 left-4 right-4 text-white bg-black bg-opacity-50 p-3 rounded text-center"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2025 Bhumbhumin Thanaphakinthaya. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
